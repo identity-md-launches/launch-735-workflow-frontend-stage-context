@@ -1,0 +1,38 @@
+[
+  {
+    "selector": ".page-heading h1",
+    "foreground": "rgb(238, 240, 232)",
+    "background": "rgb(16, 19, 15)",
+    "ratio": 16.28
+  },
+  {
+    "selector": ".metric p",
+    "foreground": "rgb(160, 166, 151)",
+    "background": "rgb(23, 27, 21)",
+    "ratio": 6.97
+  },
+  {
+    "selector": ".swap-field label",
+    "foreground": "rgb(238, 240, 232)",
+    "background": "rgb(18, 22, 15)",
+    "ratio": 15.92
+  },
+  {
+    "selector": "#trade button.primary",
+    "foreground": "rgb(24, 33, 18)",
+    "background": "rgb(212, 239, 141)",
+    "ratio": 13.07
+  },
+  {
+    "selector": ".nav-item.current",
+    "foreground": "rgb(212, 239, 141)",
+    "background": "rgb(37, 46, 28)",
+    "ratio": 11.12
+  },
+  {
+    "selector": ".feature-content p",
+    "foreground": "rgb(185, 191, 165)",
+    "background": "rgb(37, 41, 27)",
+    "ratio": 7.83
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "chainId": 11155111,
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0xa0602cb30558d5dd17415b6268a4feea3a0ca000",
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0x0e5c9297c9f02af05e691fd5421a73158e27d748",
+    "tickSpacing": 60
+  },
+  "repoUrl": "https://github.com/identity-md-launches/launch-732-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "c2536a52-a060-4831-bd7c-60d700b9596a",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Genesis Protocol is a token-only launch. The only contract in the accepted tree is LaunchToken (src/LaunchToken.sol, solc 0.8.26, evm_version cancun, optimizer 200 runs, bytecode_hash none), so the contracts list is empty and no constructor arguments, $token, $owner or $contract references are used anywhere. LaunchToken has no constructor arguments; its name \"GENESIS PROTOCOL\", symbol \"GENESIS\" and 18 decimals are compile-time constants in that file and are repeated here verbatim. Its constructor mints the fixed supply to msg.sender, which in the launch is the factory; the token has no owner, admin, mint, burn, pause, blocklist, fee, upgrade or proxy path, so the launch grants no privileged role and names no privileged wallet. The supply split, the LP, the MerkleDistributor and the initialization-only pool guard are supplied by the factory and launch policy and are deliberately not listed here; there are no initialization calls. The pool pairs with native ETH (the zero address). fee 3000 and tickSpacing 60 are the launch policy admission tier, and initialPrice is a decimal sqrtPriceX96 (2^96); the deployer derives the effective opening price from the pinned policy and the pool trades at the network trading fee the factory reads on chain, so these values are admission inputs and not a description of the live trading fee. Supply, allocations, owners, chain, policy version and artifact hashes are not manifest fields and are bound later by the attestation, admission and deployment services. These notes are explanatory only and carry no deployment authority.",
+    "token": {
+      "name": "GENESIS PROTOCOL",
+      "symbol": "GENESIS",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": []
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x389fe77758fdee626b4c330e1a840cf41845e6e777a911957302d1f8715d6b7b",
+      "abiHash": "65de8c58e428fadc04deafd8b5c82b51811a6dfdf9f9f07a46abc03d2a1e8136",
+      "address": "0x0e5c9297c9f02af05e691fd5421a73158e27d748",
+      "blockNumber": 11851548,
+      "creationCodeHash": "3ab3f4aaf97007077ab2bd846274667212ac2d5afce623dded988719612a1ec2"
+    }
+  ],
+  "sourceCommit": "d93fdc27e586c09915b806f3a402f244f3fb3ae8",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "1c053510f6ec802752bcdd1cf40bda38db7cfa80c49db761f1b53ddbcc109bf1"
+}

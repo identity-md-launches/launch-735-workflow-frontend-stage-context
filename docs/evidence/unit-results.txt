@@ -1,0 +1,67 @@
+
+> genesis-protocol-web@1.0.0 test
+> tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: canonical pinned ABI matches the attested Keccak hash
+ok 1 - canonical pinned ABI matches the attested Keccak hash
+  ---
+  duration_ms: 1.678835
+  type: 'test'
+  ...
+# Subtest: strict decimal input never rounds excess precision or accepts scientific notation
+ok 2 - strict decimal input never rounds excess precision or accepts scientific notation
+  ---
+  duration_ms: 0.64606
+  type: 'test'
+  ...
+# Subtest: slippage limits and integer rounding protect the minimum output
+ok 3 - slippage limits and integer rounding protect the minimum output
+  ---
+  duration_ms: 0.248687
+  type: 'test'
+  ...
+# Subtest: native buy encodes the attested hook, fee, settlement and minimum
+ok 4 - native buy encodes the attested hook, fee, settlement and minimum
+  ---
+  duration_ms: 4.020451
+  type: 'test'
+  ...
+# Subtest: selling sends no native value and reverses direction
+ok 5 - selling sends no native value and reverses direction
+  ---
+  duration_ms: 0.961431
+  type: 'test'
+  ...
+# Subtest: extended router layout includes the extra zero uint256 and supports either token order
+ok 6 - extended router layout includes the extra zero uint256 and supports either token order
+  ---
+  duration_ms: 1.360082
+  type: 'test'
+  ...
+# Subtest: unknown-chain recovery offers exactly the supplied wallet_addEthereumChain config
+ok 7 - unknown-chain recovery offers exactly the supplied wallet_addEthereumChain config
+  ---
+  duration_ms: 0.372704
+  type: 'test'
+  ...
+# Subtest: a rejected switch is surfaced without adding a chain
+ok 8 - a rejected switch is surfaced without adding a chain
+  ---
+  duration_ms: 0.334685
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1172.891847
+npm notice
+npm notice New major version of npm available! 10.9.9 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

@@ -1,0 +1,35 @@
+
+> genesis-protocol-web@1.0.0 build
+> npm run typecheck && vite build && node scripts/export.mjs
+
+
+> genesis-protocol-web@1.0.0 typecheck
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 10.9.9 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+vite v8.3.2 building client environment for production...
+transforming...
+✓ 3609 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   1.01 kB │ gzip:   0.52 kB
+../dist/assets/index-D9Ci5WDt.css   21.49 kB │ gzip:   5.08 kB
+../dist/assets/ccip-Dhqjhbm_.js      2.84 kB │ gzip:   1.31 kB
+../dist/assets/index-CVMtDfO3.js   613.25 kB │ gzip: 185.10 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 538ms
+Exported 1 pinned ABI(s), 6 assets, 644173 bytes. All ABI and SHA-256 hashes match.
+npm notice
+npm notice New major version of npm available! 10.9.9 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

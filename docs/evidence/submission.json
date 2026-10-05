@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-05",
+  "writeScope": [
+    "web/**",
+    "web/.gitignore",
+    "dist/**",
+    "docs/**"
+  ],
+  "protectedTrackedFilesUnchanged": true,
+  "dependencyCachesAndNodeModulesExcluded": true,
+  "submodulesAdded": false,
+  "symlinksAdded": false,
+  "exportFilesIncludingManifest": 7,
+  "exportBytesIncludingManifest": 647131,
+  "manifestMatchesPinnedHandoffAndNetwork": true,
+  "allAssetHashesValid": true,
+  "snapshotBundleBytes": 1530477,
+  "snapshotTrackedTreeBytes": 3066278,
+  "snapshotFileCount": 91,
+  "bundleLimitBytes": 8388608,
+  "snapshotScope": "Complete baseline tracked working tree plus frontend deliverables, before this small measurement record and its explanatory documentation update; independent temporary Git history, not the original repository history.",
+  "repositoryCommitCreated": false,
+  "commitLimitation": ".git/index.lock could not be created: read-only file system. The network worker must collect and commit the allowed worktree outputs.",
+  "snapshotBundleLocation": "test/scratch/genesis-snapshot.bundle (validation only; not submitted)"
+}
